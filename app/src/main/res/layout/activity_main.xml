@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/happy_new_year_images"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/my_text"
+            android:textColor="#f5f5f5"
+            android:textSize="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:text="Wish you A" />
+        <TextView
+            android:textColor="#f5f5f5"
+            android:fontFamily="sans-serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From your friend "
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textSize="30dp"
+            android:layout_margin="4dp"
+            />
+
+    </RelativeLayout>
